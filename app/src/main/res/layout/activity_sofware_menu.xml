@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sofware_menu"
+    android:background="@color/text_background">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:title="@string/software_menu"
+        app:titleTextColor="@color/black"
+        android:background="@color/tool_menu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline31"
+        app:layout_constraintStart_toStartOf="@+id/guideline30"
+        app:layout_constraintTop_toBottomOf="@+id/tool">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/to_software_def"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/software_def"
+                android:textColor="@color/black"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/to_system_software"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/system_software_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/to_application_software"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/application_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/to_programming_software"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/programming_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/to_functions_software"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/function_software_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/to_software_hardware"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/software_hardware_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/to_examples_software"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background"
+                android:text="@string/example_software_def"
+                android:textColor="@color/black"
+                android:layout_marginTop="17dp"
+                android:fontFamily="@font/dudling_around"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginBottom="100dp"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

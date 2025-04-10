@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="menu_color">#FFDE9C</color>
+    <color name="green">#007BFF</color>
+    <color name="yapyk_gok">#033D80</color>
+    <color name="yellow">#E8DD08</color>
+    <color name="yapyk_yellow">#898206</color>
+    <color name="menu_bar_color">#A3B0D2</color>
+    <color name="pink">#6C6A7A</color>
+    <color name="purple">#F07777</color>
+    <color name="yapyk_ak">#F4F4F4</color>
+    <color name="gonur">#D0CECE</color>
+    <color name="tool_menu">#BAB7B7</color>
+    <color name="text_background">#F2E3C4</color>
+    <color name="yashyl">#4CAF50</color>
+    <color name="yapyk_yashyl">#245426</color>
+    #EDEAEA
+
+
+
+</resources>

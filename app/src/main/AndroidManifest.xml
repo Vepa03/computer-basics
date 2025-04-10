@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/yuzi_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Computer_basics"
+        tools:targetApi="31">
+        <activity
+            android:name=".example_software"
+            android:exported="false" />
+        <activity
+            android:name=".software_hardware"
+            android:exported="false" />
+        <activity
+            android:name=".function_software"
+            android:exported="false" />
+        <activity
+            android:name=".programming_software"
+            android:exported="false" />
+        <activity
+            android:name=".application_software"
+            android:exported="false" />
+        <activity
+            android:name=".system_software"
+            android:exported="false" />
+        <activity
+            android:name=".definition_software"
+            android:exported="false" />
+        <activity
+            android:name=".gmail_menu"
+            android:exported="false" />
+        <activity
+            android:name=".cooling_system_menu"
+            android:exported="false" />
+        <activity
+            android:name=".power_supply"
+            android:exported="false" />
+        <activity
+            android:name=".dvd_menu"
+            android:exported="false" />
+        <activity
+            android:name=".graphic_card_menu"
+            android:exported="false" />
+        <activity
+            android:name=".ssd_menu"
+            android:exported="false" />
+        <activity
+            android:name=".ram_menu"
+            android:exported="false" />
+        <activity
+            android:name=".hard_drive_menu"
+            android:exported="false" />
+        <activity
+            android:name=".cpu_menu"
+            android:exported="false" />
+        <activity
+            android:name=".mother_board_menu"
+            android:exported="false" />
+        <activity
+            android:name=".wifi_menu"
+            android:exported="false" />
+        <activity
+            android:name=".joystick_menu"
+            android:exported="false" />
+        <activity
+            android:name=".case_menu"
+            android:exported="false" />
+        <activity
+            android:name=".usb_menu"
+            android:exported="false" />
+        <activity
+            android:name=".webcam_menu"
+            android:exported="false" />
+        <activity
+            android:name=".speaker_menu"
+            android:exported="false" />
+        <activity
+            android:name=".keyboard_menu"
+            android:exported="false" />
+        <activity
+            android:name=".mouse_menu"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_menu"
+            android:exported="false" />
+        <activity
+            android:name=".about_us_menu"
+            android:exported="false" />
+        <activity
+            android:name=".sofware_menu"
+            android:exported="false" />
+        <activity
+            android:name=".external_menu"
+            android:exported="false" />
+        <activity
+            android:name=".internal_menu"
+            android:exported="false" />
+        <activity
+            android:name=".hardware_menu"
+            android:exported="false" />
+        <activity
+            android:name=".choose_section"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
